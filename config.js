@@ -1,42 +1,45 @@
 // 霸都丶傲天 2019年10月10日 https://github.com/AJLoveChina/birthday
 var config = {
-    // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
-    // 每句话尽量不要超过15个字,不然展示效果可能不太好
+    // Bạn có thể viết bao nhiêu câu cũng được
+    // Mỗi câu nên dưới 15 chữ để hiệu ứng hiển thị đẹp nhất
     texts: [
-        "送给我",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-        "心爱的小可爱",  // 同上...
-        "今天是你的生日",
-        "这是我们在一起的",
-        "第三个生日了哦",
-        "去年的生日",
-        "还记得在王婆串串吃的呢",
-        "今年要吃好的喽哦",
-        "要把我家可爱猪猪喂饱饱",
-        "然后抱走",
+        "Gửi tặng cho",            // Nhớ dùng dấu phẩy tiếng Anh nhé!
+        "em bé đáng yêu của anh",  // Như trên...
+        "Hôm nay là sinh nhật của em",
+        "Đây là sinh nhật thứ",
+        "ba mà chúng ta bên nhau rồi đó",
+        "Sinh nhật năm ngoái",
+        "vẫn còn nhớ ăn ở Vương Bà Xiên nè",
+        "Năm nay phải ăn món ngon hơn nha",
+        "Phải cho heo con của anh ăn no nê",
+        "rồi đem về luôn 😚",
         "YAMI~~",
     ],
+
     /**
-     * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
-     * "对应上面的文字, 要完全一样" : "图片地址, 可以把图片放在imgs文件夹中"
-     * 例如
-     * "心爱的小可爱": "./imgs/xiaokeai.jpg"
+     * Phần imgs có thể để trống, nhưng nếu muốn thêm ảnh thì phải theo đúng định dạng dưới đây:
+     * "Phải đúng với nội dung trong texts ở trên": "Đường dẫn ảnh"
+     * Ví dụ:
+     * "em bé đáng yêu của anh": "./imgs/xiaokeai.jpg"
      *
-     * 如果不要图片的话, 直接在每行开头写两个斜杠注释即可, 例如下面的 "今天是你的生日" 的图片就不会展示了:)
-     * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
+     * Nếu không muốn hiện ảnh thì chỉ cần comment dòng đó bằng hai dấu //
+     * Ví dụ dòng ảnh của "Hôm nay là sinh nhật của em" bên dưới sẽ không hiện
+     * Mẹo: Ảnh nên là hình vuông hoặc gần vuông để hiển thị đẹp hơn
      */
     imgs: {
-        "心爱的小可爱": "./imgs/xiaokeai.png",
-        // "今天是你的生日": "./imgs/birthday.jpg",
+        "em bé đáng yêu của anh": "./imgs/xiaokeai.png",
+        // "Hôm nay là sinh nhật của em": "./imgs/birthday.jpg",
     },
-    // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
+
+    // Dưới đây là phần mô tả nút bấm, bạn có thể thay đổi tùy thích
     desc: {
-        turn_on: "开始",
-        play: "音乐",
-        bannar_coming: "颜色",
-        balloons_flying: "好像少点东西",
-        cake_fadein: "蛋糕？",
-        light_candle: "蜡烛？",
-        wish_message: "生日快乐",
-        story: "A MESSAGE FOR YOU",
+        turn_on: "Bắt đầu",
+        play: "Bật nhạc",
+        bannar_coming: "Màu sắc",
+        balloons_flying: "Thiếu thiếu gì đó...",
+        cake_fadein: "Bánh kem?",
+        light_candle: "Nến chăng?",
+        wish_message: "Chúc mừng sinh nhật 🎉",
+        story: "Lời nhắn gửi đến em",
     }
 };

@@ -4,16 +4,16 @@ var config = {
     // Mỗi câu nên dưới 15 chữ để hiệu ứng hiển thị đẹp nhất
     texts: [
         "Gửi tặng cho",            // Nhớ dùng dấu phẩy tiếng Anh nhé!
-        "em bé đáng yêu của anh",  // Như trên...
+        "Huyền Anh đáng yêu của anh",  // Như trên...
         "Hôm nay là sinh nhật của em",
-        "Đây là sinh nhật thứ",
-        "ba mà chúng ta bên nhau rồi đó",
-        "Sinh nhật năm ngoái",
-        "vẫn còn nhớ ăn ở Vương Bà Xiên nè",
-        "Năm nay phải ăn món ngon hơn nha",
-        "Phải cho heo con của anh ăn no nê",
-        "rồi đem về luôn 😚",
-        "YAMI~~",
+        "Đây là sinh nhật thứ 16",
+        "Anh chúc cho Huyền Anh",
+        "Luôn luôn xinh đẹp và hạnh phúc",
+        "Tuổi mới chúc huyền anh luôn luôn vui vẻ",
+        "Ăn mau chong lớn",
+        "Gửi Huyền Anh",
+        "Chúc mừng sinh nhật Huyền Anh 😚",
+        "~",
     ],
 
     /**
